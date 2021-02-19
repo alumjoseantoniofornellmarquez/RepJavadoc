@@ -73,7 +73,11 @@ public class Main {
     }
     /**
     *Metodo para operar en las cuentas creadas y si falla algo devuelva un mensaje de error
-    *@param cuenta1 
+    *@param cuenta1 objeto de la clase CCuenta que utiliza el metodo constructor de esta misma clase
+    *@param cantidad que se va a ingresar que se obtiene de la información añadida posteriormente con el metodo
+    * constructor de cuenta1
+    *@param opcion va a indicar cual de las 2 opciones definidas ha de realizarse por ejemplo si se va a ingresar
+    * o retirar dinero de la cuenta
     */
     public static void operativa_cuenta(CCuenta cuenta1, float cantidad,int opcion){
         if(opcion==2){

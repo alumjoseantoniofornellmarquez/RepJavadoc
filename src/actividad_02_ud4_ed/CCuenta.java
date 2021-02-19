@@ -12,7 +12,10 @@ package actividad_02_ud4_ed;
 public class CCuenta {
 
 
-  
+  /**
+  *Atributos definidos previamiente
+  * para la clase cuenta
+  */
   protected String nombre;
     private String cuenta;
     private double saldo;
@@ -40,8 +43,8 @@ public class CCuenta {
         tipoInterés=tipo;
     }
     /**
-    *Metodo para modificar el nombre del cliente
-    * @param nom nuevo nombre para el cliente
+    *Metodo para asignar el nombre del cliente
+    * @param nom nombre para el cliente
     */
     public void asignarNombre(String nom)
     {
@@ -49,7 +52,8 @@ public class CCuenta {
     }
     /**
     *Metodo que devuelve el nombre del cliente
-    *@return Devuelve el nuevo nombre para el cliente
+    *
+    * @return <code>nombre</code>Devuelve el nuevo nombre para el cliente
     */
     public String obtenerNombre()
     {
@@ -57,15 +61,17 @@ public class CCuenta {
     }
     /**
     * Metodo que devuelve saldo de la cuenta
-    * @return devuelve el saldo de la cuenta
+    *
+    * @return <code>saldo</code> devuelve el saldo de la cuenta
     */
      public double estado ()
     {
         return saldo;
     }
-     
+    
     /**
     *Metodo para ingresar dinero en la cuenta
+    *
     *@param cantidad Dinero que se va a ingresar
     *@throws Exception controla que no se puede ingresar una cantidad negativa
     */
@@ -91,7 +97,7 @@ public class CCuenta {
     }
     /**
     *Metodo que devuelve el número de cuenta
-    *@return devuelve el número de cuenta
+    *@return <code>cuenta</code> devuelve el número de cuenta
     */
     public String obtenerCuenta ()
     {
@@ -115,7 +121,7 @@ public class CCuenta {
   }
   /**
   *Metodo que devuelve el tipo de interés
-  *@return devuelve el tipo de interés
+  *@return <code>tipoInterés</code> devuelve el tipo de interés
   */
   public double getTipoInterés() {
     return tipoInterés;
