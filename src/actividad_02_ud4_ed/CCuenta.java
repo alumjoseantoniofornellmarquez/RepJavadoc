@@ -31,7 +31,7 @@ public class CCuenta {
     /**
     *Metodo constructor de la clase CCuenta
     *@param nom Se refiere al nombre del cliente
-    *@param cue Se refiere al numero de cuenta del cliente
+    *@param cue Se refiere al número de cuenta del cliente
     *@param sal Se refiere al saldo que hay en la cuenta
     *@param tipo Se refiere al tipo de interés de la cuenta
     */
